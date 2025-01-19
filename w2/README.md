@@ -20,9 +20,9 @@
 
 | **12:30 PM** |
 | ------------ |
-### - Come back home
-### - Work on any assignments
-### - Eat lunch/dinner
-### - Clean up and Sleep
+| - Come back home |
+| - Work on any assignments |
+| - Eat lunch/dinner |
+| - Clean up and Sleep |
 
 ### --------------------------------------------------------------------------------
