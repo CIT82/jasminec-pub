@@ -1,3 +1,5 @@
+console.log("Hello from within")
+
 const dialog = document.querySelector("dialog");
 const showButton = document.querySelector("dialog + button");
 const closeButton = document.querySelector("dialog button");
