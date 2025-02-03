@@ -24,17 +24,6 @@ header {
     border: 9px rgba(255, 227, 175, 0.845) dashed;
 }
 
-legend {
-    background-color: #772929;
-    color: #fff3f3;
-    padding: 5px 60px;
-  }
-  
-  input {
-    margin: 0.4rem;
-  }
-  
-
 figure {
     border: thin #460c0c solid;
     display: flex;
@@ -70,6 +59,16 @@ figure {
     margin: 0.4rem 0;
   }
   
+  ::backdrop {
+    background-image: linear-gradient(
+      45deg,
+      rgb(221, 109, 75),
+      rgb(51, 131, 153),
+      rgb(255, 30, 98),
+      rgb(24, 165, 116)
+    );
+    opacity: 0.75;
+  }
 
 
 
