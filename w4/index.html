@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 4</title>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header >
+            <h1 class="outline">Simple Webpage</h1>
+        </header>
+        <section>
+        <h2>Choose your companion</h2>
+            <figure>
+                <img src="/img/Gecko.img.png" alt="Gecko" />
+                <figcaption>Gecko</figcaption>
+                <img src="/img/Ferret.img.png" alt="Ferret" />
+                <figcaption>Ferret</figcaption>
+                <img src="/img/Goat.img.png" alt="Goat" />
+                <figcaption>Goat</figcaption>
+            </figure>
+        </section>
+        <p>Today you are going to pick which of the listed animals you'd pick.</p>
+        <section>
+            <fieldset>
+                <legend>Choose your companion.</legend>
+          
+                <input type="radio" id="gecko" name="companion" value="K" />
+                <label for="gecko">Gecko</label><br />
+          
+                <input type="radio" id="ferret" name="companion" value="S" />
+                <label for="ferret">Ferret</label><br />
+          
+                <input type="radio" id="goat" name="companion" value="M" />
+                <label for="goat">Goat</label>
+            </fieldset>
+        </section>
+        <p>Give your new companion a name. Be as unique as you want!</p>
+        <section>
+            <label for="name">Name your companion (4 to 10 characters):</label>
+
+            <input type="text" id="name" name="name" required minlength="4" maxlength="10" size="15" />
+        </section>  
+    </main>
+            
+         
+</body>
+</html>
