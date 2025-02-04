@@ -12,21 +12,7 @@
         <header >
             <h1 class="outline">Simple Webpage</h1>
         </header>
-        <section>
-            <h2>Choose your companion</h2>
-                <img
-                class="fit-picture"
-                src="/img/gecko.png"
-                alt="gecko" />
-                <img
-                class="fit-picture"
-                src="/img/ferret.png"
-                alt="ferret" />
-                <img
-                class="fit-picture"
-                src="/img/goat.png"
-                alt="goat" />
-        </section>
+        
         <p>Which of the listed animals you'd pick?</p>
         <section>
             <fieldset>
@@ -41,6 +27,12 @@
                 <input type="radio" id="goat" name="companion" value="Go" />
                 <label for="goat">Goat</label>
             </fieldset>
+        </section>
+        <section>
+            <h2></h2>
+            <label for="name">Companion Name (4 to 10 characters):</label>
+
+            <input type="text" id="name" name="name" required minlength="4" maxlength="10" size="15" />
         </section>
         <p></p>
         <section>

@@ -24,11 +24,6 @@ header {
     border: 9px rgba(255, 227, 175, 0.845) dashed;
 }
 
-.fit-picture {
-  width: 450px;
-}
-
-
   label {
     display: block;
     font:
