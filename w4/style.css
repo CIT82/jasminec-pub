@@ -24,27 +24,10 @@ header {
     border: 9px rgba(255, 227, 175, 0.845) dashed;
 }
 
-figure {
-    border: thin #460c0c solid;
-    display: flex;
-    flex-flow: column;
-    padding: 5px;
-    max-width: 220px;
-    margin: auto;
-  }
-  
-  img {
-    max-width: 220px;
-    max-height: 350px;
-  }
-  
-  figcaption {
-    background-color: #222;
-    color: #ffffff;
-    font: italic smaller sans-serif;
-    padding: 6px;
-    text-align: center;
-  }
+.fit-picture {
+  width: 450px;
+}
+
 
   label {
     display: block;
