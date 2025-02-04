@@ -1,49 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Week 4</title>
     <script defer src="main.js"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <main>
-        <header >
-            <h1 class="outline">Simple Webpage</h1>
-        </header>
-        
-        <p>Which of the listed animals you'd pick?</p>
-        <section>
-            <fieldset>
-                <legend>Choose your companion.</legend>
-          
-                <input type="radio" id="gecko" name="companion" value="Ge" />
-                <label for="gecko">Gecko</label><br />
-          
-                <input type="radio" id="ferret" name="companion" value="F" />
-                <label for="ferret">Ferret</label><br />
-          
-                <input type="radio" id="goat" name="companion" value="Go" />
-                <label for="goat">Goat</label>
-            </fieldset>
-        </section>
-        <section>
-            <h2></h2>
-            <label for="name">Companion Name (4 to 10 characters):</label>
+      <header>
+        <h1 class="outline">Simple Webpage</h1>
+      </header>
 
-            <input type="text" id="name" name="name" required minlength="4" maxlength="10" size="15" />
-        </section>
-        <p></p>
-        <section>
-            <dialog>
-                <button autofocus>Close</button>
-                <p>Congrats! You now have a companion.</p>
-              </dialog>
-              <button>Continue forward</button>
-        </section>  
+      <p>Which of the listed animals you'd pick?</p>
+      <section>
+        <fieldset>
+          <legend>Choose your companion.</legend>
+
+          <input type="radio" id="gecko" name="companion" value="Ge" />
+          <label for="gecko">Gecko</label><br />
+
+          <input type="radio" id="ferret" name="companion" value="F" />
+          <label for="ferret">Ferret</label><br />
+
+          <input type="radio" id="goat" name="companion" value="Go" />
+          <label for="goat">Goat</label>
+        </fieldset>
+      </section>
+      <section>
+        <h2></h2>
+        <label for="name">Companion Name (4 to 10 characters):</label>
+
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          minlength="4"
+          maxlength="10"
+          size="15"
+        />
+      </section>
+      <p></p>
+      <section>
+        <dialog>
+          <button autofocus>Close</button>
+          <p>Congrats! You now have a companion.</p>
+        </dialog>
+        <button>Continue forward</button>
+      </section>
     </main>
-            
-         
-</body>
+  </body>
 </html>
