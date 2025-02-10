@@ -1,0 +1,25 @@
+body {
+    margin-top: 40px;
+}
+
+body::before {
+    content: "XS";
+    color: rgb(65, 213, 206);
+    font-size: 2rem;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.box {
+    background-color: rgb(230, 202, 173);
+    border: 1px solid rgb(69, 52, 154);
+    min-height: 50px;
+    font-size: 2rem;
+}
+
+p {
+    font-size:large;
+}
+
