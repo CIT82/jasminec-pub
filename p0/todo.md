@@ -1,22 +1,24 @@
 # Things to Change in the index mainly.
-- Change the title of webpage and tab. located in head and body header.
-- Edit the social links. adding link and removing any that isnt needed.
+- ~~Change the title of webpage and tab. located in head and body header. ~~
+- ~~Edit the social links.~~
+- adding link and removing any that isnt needed.
 - Gallery section
-    - Edit the gallery with my own images.
-- Edit the nav menu & remove any unnecessary dropdowns.
-- Change any text that displays on the web.
-    - Main> section hero> h2.
+    - ~~Edit the gallery with my own images.~~
+- Edit the nav menu & remove any unnecessary dropdowns.**mostly updated**
+- ~~Change any text that displays on the web.~~
+    - ~~Main> section hero> h2.~~
 - Edit Services HTML
-    - Commission prices
+    - ~~Commission prices~~
     - Remove service item? or use? undecided.
-- Change testimonial section to something else or remove.
-- Edit About HTML
-    - Change text info
-- Edit Contact HTML
-    - Change email & remove location/call
+- ~~Change testimonial section to something else or remove.~~
+- ~~Edit About HTML~~
+    - ~~Change text info~~
+- ~~Edit Contact HTML~~
+    - ~~Change email & remove location/call~~
 - Change the webpage coloring aesthetic
 - Remove or edit icons for services section
 - gallery single HTML
-    - Edit the gallery information of specific images
+    - ~~Edit the gallery information of specific images~~
 - Update any fonts or size of texts
 - Change copyright PhotoFolio to new website name.
+
