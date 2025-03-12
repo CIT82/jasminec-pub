@@ -1,5 +1,5 @@
 # Things to Change in the index mainly.
-- ~~Change the title of webpage and tab. located in head and body header. ~~
+- ~~Change the title of webpage and tab. located in head and body header.~~
 - ~~Edit the social links.~~
 - adding link and removing any that isnt needed.
 - Gallery section
